@@ -7,25 +7,25 @@ const PostDetail = ({ post }) => {
 
     if (obj) {
       if (obj.bold) {
-        modifiedText = (<b key={index}>{text}</b>);
+        modifiedText = (<b key={index}>{text}</b>)
       }
 
       if (obj.italic) {
-        modifiedText = (<em key={index}>{text}</em>);
+        modifiedText = (<em key={index}>{text}</em>)
       }
 
       if (obj.underline) {
-        modifiedText = (<u key={index}>{text}</u>);
+        modifiedText = (<u key={index}>{text}</u>)
       }
     }
 
     switch (type) {
       case 'heading-three':
-        return <h3 key={index} className="text-xl font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h3>;
+        return <h3 key={index} className="text-xl font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h3>
       case 'paragraph':
-        return <p key={index} className="mb-8">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>;
+        return <p key={index} className="mb-8">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>
       case 'heading-four':
-        return <h4 key={index} className="text-md font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
+        return <h4 key={index} className="text-md font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>
       case 'image':
         return (
           <img
@@ -51,7 +51,7 @@ const PostDetail = ({ post }) => {
       </div>
       <div className="px-4 lg:px-0">
         <div className="flex items-center mb-8 w-full">
-          <div className="hidden md:flex items-center justify-center lg:mb-0 lg:w-auto mr-8 items-center">
+          <div className="md:flex items-center justify-center lg:mb-0 lg:w-auto mr-8 items-center">
             <img
               alt={post.authors.name}
               height="100px"
@@ -77,6 +77,6 @@ const PostDetail = ({ post }) => {
             })}
       </div>
     </div>
-)};
+)}
 
-export default PostDetail; 
+export default PostDetail
