@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
-import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader } from '../../components';
+import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader, Footer } from '../../components';
 import { getPosts, getPostDetails } from '../../services';
 
 const PostDetails = ({ post }) => {
@@ -27,6 +27,7 @@ const PostDetails = ({ post }) => {
                 </div>
             </div>
         </div>
+        <Footer /> 
     </div>
 )};
 

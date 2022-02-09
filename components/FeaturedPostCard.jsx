@@ -16,7 +16,7 @@ const FeaturedPostCard = ({ post }) => (
           height="50px"
           width="50px"
           className="align-middle drop-shadow-lg rounded-md"
-          src="https://media.graphcms.com/qr7lY79iSymb9az4TIrS"
+          src="https://media.graphcms.com/sor8YwJgTAmsVJHqAntE"
         />
         <p className="inline align-middle text-white text-shadow ml-2 font-medium">{post.authors.name}</p>
       </div>

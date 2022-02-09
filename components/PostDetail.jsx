@@ -57,7 +57,7 @@ const PostDetail = ({ post }) => {
               height="100px"
               width="100px"
               className="align-middle rounded-full"
-              src="https://media.graphcms.com/qr7lY79iSymb9az4TIrS"
+              src="https://media.graphcms.com/sor8YwJgTAmsVJHqAntE"
             />
           </div>
           <div className="font-medium text-gray-700">

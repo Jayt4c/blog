@@ -9,7 +9,7 @@ const Author = ({ authors }) => {
         height="100px"
         width="100px"
         className="align-middle   rounded-full"
-        src="https://media.graphcms.com/qr7lY79iSymb9az4TIrS"
+        src="https://media.graphcms.com/sor8YwJgTAmsVJHqAntE"
       />   
     </div>
     <h3 className="text-white mt-1 mb-1 text-xl font-bold">JWebDev</h3>
