@@ -42,9 +42,9 @@ console.log(post)
       </p>
       <div className="text-center">
         <Link href={`/post/${post.slug}`}>
-          <span className="transition duration-500 ease transform hover:-translate-y-1 hover:bg-blue-400 inline-block bg-indigo-900 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">
+          <button className="transition duration-500 ease transform hover:-translate-y-1 hover:bg-blue-400 inline-block bg-indigo-900 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">
             Continue Reading
-          </span>
+          </button>
         </Link>
       </div>
     </div>
