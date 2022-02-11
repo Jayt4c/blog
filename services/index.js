@@ -1,4 +1,5 @@
-import { request, gql } from 'graphql-request';
+import Link from 'next/link';
+import { GraphQLClient, request, gql } from 'graphql-request';
 
 const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;
 
@@ -73,7 +74,7 @@ export const getPostDetails = async (slug) => {
         createdAt
         slug
         content {
-          raw
+          html
         }
         categories {
           name
